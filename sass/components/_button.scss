@@ -46,6 +46,7 @@
   &--green{
     color: $color-white;
     background-color: $color-primary;
+    z-index: 3000;
 
     &::after{
       background-color: $color-primary;
