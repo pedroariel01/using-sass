@@ -173,7 +173,7 @@ body {
     transform: scale(1.5);
     opacity: 0; }
 
-.btn:active, .btn:focus {
+.btn:active {
   outline: none;
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.5); }
