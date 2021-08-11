@@ -33,7 +33,7 @@
     overflow: hidden;
     border-radius: 50%;
 
-    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path:polygon(0 0)) {
+    @supports (clip-path: polygon(0 0)) {
       clip-path: circle(50% at 50% 50%);
       shape-outside: circle(50% at 50% 50%);
     -webkit-shape-outside: circle(50% at 50% 50%);
